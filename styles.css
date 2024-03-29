@@ -1,0 +1,95 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #3498db; 
+    padding: 1% 0; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1%; 
+}
+
+nav ul li a:hover {
+    background-color: #2980b9; 
+}
+
+main {
+    padding: 2%; 
+}
+
+section {
+    margin-bottom: 4%; 
+}
+
+h1 {
+    color: #2980b9; 
+}
+
+p {
+    line-height: 1.6;
+}
+
+form label {
+    display: block;
+    margin-bottom: 1%; 
+    color: #3498db; 
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 1%;
+    margin-bottom: 2%; 
+    border: 1px solid #3498db; 
+    border-radius: 5px;
+}
+
+form textarea {
+    height: 150px;
+}
+
+form button {
+    background-color: #3498db; 
+    color: #fff;
+    padding: 1% 2%; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #2980b9; 
+}
+
+footer {
+    background-color: #3498db; 
+    color: #fff;
+    text-align: center;
+    padding: 1% 0; 
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
